@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header
+{
+    width:100%;
+    line-height:15vh;
+    background-color:rgb(9, 247, 247);
+    color:white;
+}
+
+.heading
+{
+    text-transform:uppercase;
+    text-align:center;
+    letter-spacing:1rem;
+    font-weight:bold;
+    text-shadow: 3px 3px 0 #7A7A7A;
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Fira Sans', sans-serif; */
+}
+section{
+    background-color:rgb(3, 179, 179);
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.gameArea{
+    background-color:rgb(7, 210, 210);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:600px;
+    height:400px;
+    -webkit-box-shadow: -3px 2px 9px -2px rgba(0,0,0,0.65);
+    -moz-box-shadow: -3px 2px 9px -2px rgba(0,0,0,0.65);
+    box-shadow: -3px 2px 9px -2px rgba(0,0,0,0.65);
+}
+.data{
+    margin-bottom:20px;
+}
+.msg{
+    font-size:18px;
+    word-spacing:0.2rem;
+    text-align:center;
+    font-weight:bold;
+}
+input{
+    margin-top:20px;
+    font-size:15px;
+    padding:10px;
+    border-radius:10px;
+    outline:none;
+    border:1px solid rgb(7, 210, 210);
+    width:400px;
+    font-family: 'Quicksand', sans-serif;
+}
+input:focus{
+    -webkit-box-shadow: -3px 2px 9px -2px rgba(0,0,0,0.65);
+    -moz-box-shadow: -3px 2px 9px -2px rgba(0,0,0,0.65);
+    box-shadow: -3px 2px 9px -2px rgba(0,0,0,0.65);
+}
+.btn{
+    padding:10px;
+    outline:none;
+    border:1px solid rgb(3, 179, 179);
+    border-radius:2px;
+    text-align:center;
+    align-items: center;
+    background-color:white;
+    transition: all;
+    transition-duration:0.5s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor:pointer;
+    -webkit-box-shadow: -3px 2px 9px -2px rgba(0,0,0,0.65);
+    -moz-box-shadow: -3px 2px 9px -2px rgba(0,0,0,0.65);
+    box-shadow: -3px 2px 9px -2px rgba(0,0,0,0.65);
+}
+.btn:hover{
+    letter-spacing:0.08rem;
+    word-spacing:0.1rem;
+}
+.word{
+    color:white;
+    letter-spacing:0.5rem;
+    font-size:1.8rem;
+}
+
+
+.hidden{
+    display:none;
+}
